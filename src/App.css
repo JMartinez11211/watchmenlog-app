@@ -1,38 +1,143 @@
 .App {
   text-align: center;
+  background-color: rgb(232 232 232);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+table, td, th {  
+  border: 2px solid rgb(31, 30, 30);
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+tr:nth-child(even) {background-color: #c8c8c8;}
+
+thead{
+  background-color:#ffffff ;
+}
+ 
+
+th, td {
+  padding: 15px;
+  word-wrap:break-word
+}
+th{
+  background-color: #f2f2f2 ;
+}
+
+button{
+  width: 8rem;
+  height: 3rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+
+.viewbtn{
+  background-color: #61dafb;
+}
+
+.addbtn{
+  background-color: greenyellow;
+}
+
+.deletebtn{
+  background-color: rgb(248, 70, 70);
+}
+
+.updatebtn{
+  background-color: yellowgreen;
+}
+
+button:hover{
+  background-color: aliceblue;
+}
+
+
+.pagination  {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+}
+
+.pagContainer{
+  flex-direction: row;
+text-align: center;
+}
+
+textarea{
+  height: 200px;
+  width: 100%;
+  margin: 20px 0px 2rem -15px;
+  padding-left: 10px;
+  font-size: 16px;
+  
+}
+
+.form{
+  text-align: left;
+  height: 500px;
+  max-width: 600px;
+  width: 100%;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ input{
+  height: 45px;
+  width: 20rem;
+  padding-left: 15px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 1000;
+  font: bold;
+}
+
+.details{
+  font-weight: 1000;
+  font-size: 1.3rem;
+}
+
+.savebtn{
+  margin-top: -1rem;
+}
+.cancelbtnupd{
+margin-top: 3rem;
+}
+.cancelbtnadd{
+  margin-top: 3.9rem;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+#header {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 8rem;
+  padding: 20px;
 }
