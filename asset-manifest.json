@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/watchmenlog-app/static/css/main.20dc4d42.css",
+    "main.js": "/watchmenlog-app/static/js/main.1616236e.js",
+    "static/js/787.4b198547.chunk.js": "/watchmenlog-app/static/js/787.4b198547.chunk.js",
+    "index.html": "/watchmenlog-app/index.html",
+    "main.20dc4d42.css.map": "/watchmenlog-app/static/css/main.20dc4d42.css.map",
+    "main.1616236e.js.map": "/watchmenlog-app/static/js/main.1616236e.js.map",
+    "787.4b198547.chunk.js.map": "/watchmenlog-app/static/js/787.4b198547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20dc4d42.css",
+    "static/js/main.1616236e.js"
+  ]
+}
